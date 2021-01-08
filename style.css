@@ -7,6 +7,7 @@ body{
 :root{
     --primary-color:#8B5CF6;
     --gray:#9CA3AF;
+    --off-white:#F3F4F6;
 
 }
 
@@ -73,14 +74,27 @@ hr{
 
 .section-normal h2 {
         text-align:center;
-        padding-top:2rem;
+    }
+
+    .section-normal{
+        padding-top:1rem;
+        padding-bottom:1.7rem;
+    }
+.section-off-white h2{
+    text-align:center;
+}
+.section-off-white{
+    background-color:var(--off-white);
+    padding-top:1rem;
+    padding-bottom:1.7rem;
 }
 
 .footer{
     background-color: var(--primary-color);
     color:white;
-    padding:2rem;
+    padding:1rem;
     text-align:center;
-    border-top-right-radius:0.5rem;
+    border-top-right-radius:1rem;
+    
 }
 
