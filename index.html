@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson Three</title>
+    <link href ="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Himanshu's component library</h1>
+    <p>Hey this is <strong>Himanshu</strong> doing lesson three of neogcamp by tanay pratap </p>
+
+    <hr>
+
+    <h2>@typography</h2>
+    <h1>this is h1 heading</h1>
+    <h2>this is the smaller one h2</h2>
+    <p>this is the normal text im writing </p>
+    <small>this is small text </small>
+
+    <hr>
+ <h2>@containers</h2>
+    <h3>@fluid containers</h3>
+    <p>This is going to be a fluid container.it will go full width with some margin
+        container-fluid class provides a full-width container which spans the entire width of the viewport. In the below example, the div with class “container-fluid” will take-up the complete width of the viewport and will expand or shrink when ever the viewport is resized
+    </p>
+    <h3>@center container</h3>
+    <p  class = "center-container">This is going to be a cneter container. It will go to a goven width and a cneter.for this we use text align attritbute via css</p>
+
+
+    <hr>
+
+    <h2>@links</h2>
+
+    <a  class="link-primary link-design" href="/">Primary Link</a>
+    <a class="link-secondary link-design"
+    href="/">Secondary Link</a>
+
+
+<hr>
+
+    <h2>@lists</h2>
+    <h3>unordered lists</h3>
+    <p>we dont want to show bullets in the unordered list. remove it with css</p>
+    <ul class="list-unordered" >
+        <li >point 1</li>
+        <li >item 2</li>
+        <li >item 3</li>
+    </ul>
+
+    <h3>inline list</h3>
+    <div>will create list in a single line with css
+        <ul >
+            <li class="list-inline">one</li>
+            <li class="list-inline">2</li>
+            <li class="list-inline">3</li>
+        </ul>
+    </div>
+
+    <h3>reverse ordered lists</h3>
+    <div>willl go in reverse list
+        <ol reversed>
+            <li>pehela</li>
+            <li>doosra</li>
+            <li>teesra</li>
+        </ol>
+    </div>
+    <hr>
+    <h2>@navigation</h2>
+    <div>navigation is used on top of the page for getting to different pages</div>
+    <nav class="navigation">
+        <div>I am a <strong>Developer</strong></div>
+        <ul class="nav-ul">
+            <li class="list-inline"><a class="link-design" href="/"><strong>home</strong></a></li>
+            <li class="list-inline"><a class="link-design" href="/">projects</a></li>
+            <li class="list-inline"><a class="link-design" href="/">about</a></li>
+        </ul>
+    </nav>
+    <hr>
+
+    <h2>@header</h2>
+    <header>
+        <img class="header-photo" src="/image/photo.svg">
+
+        <h1 class="header-heading">Hi this is <span style="color:var(--primary-color)">Himanshu Learning</span>
+        </h1>
+    </header>
+
+    <hr>
+    <h2>@section</h2>
+   
+        <div>a section is used to seperate parts of pages .in marketing websites you would have seen a header folowed by
+            sections of features, team, pricing, contact info etc.</div>
+        
+        <h3>@normal section</h3>
+        <section class="section-normal">
+        <h2>Heading inside section</h2>
+        <p>text defining this section and many more things</p>
+        <a class="link-design link-primary" href="/">primary button</a>
+        </section>
+        
+        <h3>@an off white section</h3>
+        <section class="section-off-white">
+        <h2>inside off white section</h2>
+        <p>Text defining this section and many more things</p>
+        <a  class="link-design
+        link-primary"href="/">primary button</a>
+        
+    </section>
+    <hr>
+    <h2>@footer</h2>
+    <footer class="footer">
+        <p><strong>header inside footer</strong></p>
+        <ul>
+            <li class="list-inline list-unordered"> <a class="link-design" href="/">social 1</a></li>
+            <li class="list-inline list-unordered" > <a class="link-design" href="/">social 2</a></li>
+            <li class="list-inline list-unordered" ><a class="link-design" href="/">social3</a></li>
+        </ul>
+
+    </footer>
+
+
+</body>
+
+</html>
